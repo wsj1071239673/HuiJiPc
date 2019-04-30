@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+/* 新手指南内容开始 */
+/* 头部 */
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+main .wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+main .wrapper .novice{
+    height: 40px;
+}
+main .wrapper .novice i.nov1{
+    line-height: 1px;
+    display: inline-block;
+    fill: currentColor;
+    width: 12px;
+    height: 16px;
+    color: #6b6b6b;
+    margin-right: 5px;
+    background: url('../images/imgs-sale/1-7.png') no-repeat 0 0;
+    background-size: 12px 16px;
+}
+main .wrapper .novice i.nov2{
+    margin: 0 8px;
+    color: #dedede;
+    font-size: 10px;
+}
+main .wrapper .novice a{
+    line-height: 40px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+main .wrapper .novice span{
+    color: #9c9c9c;
+    font-size: 12px;
+}
+/* 头部结束 */
+/* 左侧导航开始 */
+.guide{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.guide .guide-nav{
+    width: 220px;
+    /* height: 1468px; */
+    border:1px solid #dfdfdf;
+    font-size: 14px;
+    float: left;
+}
+.guide .guide-nav .title{
+    height: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 15px;
+    color: #333;
+}
+dl{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.guide .guide-nav .cur{
+    border: 1px solid #e3e3e3;
+    border-width: 1px 0;
+    margin-top: -1px;
+}
+.guide .guide-nav dl dt{
+    padding: 0 15px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 50px;
+}
+.guide .guide-nav dl dt span{
+    display: inline-block;
+    width: 170px;
+    font-size: 14px;
+    color: #333;
+}
+.guide .guide-nav dl dt i{
+    display:inline-block;
+    font-size: 0.8em;
+    font-style: normal;
+    margin-right: 5px;
+    color: #ccc;
+}
+.guide .guide-nav dl dd.data{
+    display: block;
+}
+.guide .guide-nav dl dd a{
+    color: #333;
+    margin: 20px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.guide .guide-nav .len-r dd a{
+    margin-left: 40px;
+}
+.guide .guide-nav .len-r dd a:hover{
+    color:#c80f1e;
+}
+.guide .guide-nav .len-r dd a{
+    position: relative;
+}
+.guide .guide-nav .len-r dd a::after{
+    content: '';
+    height: 18px;
+    width: 2px;
+    background: #c80f1e;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    display: none;
+}
+.guide .guide-nav .len-r dd .bor-20::after{
+    top: 8px;
+}
+.guide .guide-nav .len-r dd a:hover::after{
+    display: block;
+}
+
+/* 左侧导航结束 */
+/* 右侧内容开始 */
+/* 第一个开始 */
+.guide-content {
+    width: 978px;
+    height: 1468px;
+    float: left;
+}
+.guide-content .guide-center {
+    width: 640px;
+    height: 1468px;
+    margin: 0 auto;
+    /* display: none; */
+}
+.guide-content .guide-center .topp{
+    padding: 12px 15px;
+}
+.guide-content .guide-center .topp h1{
+    font-size: 26px;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+.guide-content .guide-center .topp p{
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.guide-content .guide-center .cen{
+    padding: 12px 15px;
+    font-size: 14px;
+}
+.guide-content .guide-center .cen h3{
+    width: 610px;
+    height: 23px;
+    display: block;
+    margin-bottom: .855em;
+    font-size: 1.17em;
+}
+.guide-content .guide-center .cen p{
+    margin-bottom: 1em;
+    text-align: justify;
+    color: #9c9c9c;
+    font-size: 12px;
+}
+.guide-content .guide-center .cen p:nth-child(6) a{
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+    background: url('../images/imgs-sale/1-8.png') no-repeat 0 0;
+    background-size: 22px 22px;
+    padding-left: 22px;
+}
+.guide-content .guide-center .cen p:nth-child(7){
+    color: #333;
+    font-size: 14px;
+}
+.guide-content .guide-center .cen table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 1em;
+    width: 100%;
+    font-size: 14px;
+}
+.guide-content .guide-center .cen table th{
+    border: 1px solid #dfdfdf;
+    height: 36px;
+    padding: 10px;
+    border-color: inherit;
+}
+.guide-content .guide-center .cen table td{
+    border: 1px solid #dfdfdf;
+    height: 36px;
+    padding: 10px;
+}
+/* 第一个结束 */

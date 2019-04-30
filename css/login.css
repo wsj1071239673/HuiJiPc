@@ -1,0 +1,140 @@
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.login-head{
+    height:80px;
+}
+.login-head a{
+    display: flex;
+}
+.login-head img{
+    width: 100px;
+    height: 50px;
+    padding:15px;
+}
+.login-head span{
+    margin-left: 60px;
+    font-size:25px;
+    color:#c80f1e;
+    line-height:80px;
+    position: relative;
+}
+.login-head span::before{
+    position: absolute;
+    left: -40px;
+    top:20px;
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: #b9b3b3;
+}
+/* head  end */
+.login-bg{
+    background: #000 url(../images/reg/1.jpg) no-repeat center top;
+    height: 450px;
+}
+.login{
+    margin-top:50px;
+    float:right;
+    background:#fff;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border:10px solid rgb(122, 120, 120);
+}
+.login .login-toggle{
+    border-bottom: 1px solid #dedede;
+    height: 40px; 
+    display: flex; 
+}
+.login .login-toggle p{
+    margin-left: 50px;
+    line-height: 40px;
+    color:#c80f1e;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #c80f1e;
+}
+.login .login-toggle a{
+    margin-left: 130px;
+    line-height: 40px;
+}
+.login .login-toggle a:hover{
+    color:#c80f1e;
+}
+.form{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.form p{
+    height: 40px;
+    width: 240px;
+    border-bottom: 1px solid #dedede;
+}
+
+.form p input{
+    height: 40px;
+    width: 240px;
+    border:0;
+    outline: none; 
+}
+.form .slide-box{
+    height: 40px;
+    width: 240px;
+    border-bottom: 1px solid #dedede;
+}
+.form .slide-box span{
+    float: left;
+    line-height: 40px;
+    color:#797777;
+    display: block;
+}
+.form .slide-box .slide{
+    margin-top: 10px;
+    float:right;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background: #c80f1e;
+    position: relative;
+    transition:all .5s;
+}
+.form .slide-box .slide-btn{
+    position: absolute;
+    left: 22px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    transition:left .5s;
+}
+.form p.last{
+    border-bottom:none;
+}
+.form p .login-btn{
+    margin-top: 20px;
+    width: 240px;
+    border: none;
+    height: 40px;
+    color:white;
+    cursor: pointer;
+    background: #797777;
+}
+.find{
+    margin-top: 40px;
+    margin-left:240px;  
+}
+.find a{
+    color: #3caaff;
+    cursor: pointer;
+}
+

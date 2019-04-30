@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>注册 </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+    <div class="wrapper content">
+        <div class="reg-head">
+            <a href="#">
+                <img src="images/reg/logo.png">
+                <span>新用户注册</span>
+            </a>
+        </div>
+        <div class="reg-box">
+            <div class="reg-tab">
+                <ul>
+                    <li class="fast-reg">快速注册</li>
+                    <li class="account-reg act">账号注册</li>
+                </ul>
+            </div>
+            <div class="regtip">已有九机网账号？现在就
+                <a href="login.html">登录</a>
+            </div>
+            <!-- 账号注册 -->
+            <form class="reg">
+                <dl>
+                    <dt>
+                        <i>*</i>用户名
+                    </dt>
+                    <dd>
+                        <input type="text" class="user" name="user">
+                        <span class="tip"></span>
+                        <em>6-16位字母、数字或汉字，请不要输入特殊字符！</em>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i>*</i>密码
+                    </dt>
+                    <dd>
+                        <input type="text" class="pwd" name="pwd">
+                        <span class="tip"></span>
+                        <em>6个字符以上的字母或数字</em></dd>
+                </dl>
+                <dl>
+                    <dt><i>*</i>重复密码</dt>
+                    <dd>
+                        <input type="text" class="rpwd" name="rpwd">
+                        <span class="tip"></span>
+                        <em>请重复输入密码确认不会输错</em></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <i></i>手机号码
+                    </dt>
+                    <dd>
+                        <input type="text" name="tel">
+                        <em>手机号码非常重要，找回密码及购物都会用到</em>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>邮箱地址</dt>
+                    <dd>
+                        <input type="text" name="email">
+                        <em>请填写邮箱，用于找回密码</em>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><i></i>验证码</dt>
+                    <dd>
+                        <input type="text" class="phone-code">
+                        <a class="phone-btn" href="javascript:;">获取验证码</a>  
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <input name="" id="mmprovision" type="checkbox" checked="checked">
+                        <label for="mmprovision">我已认真阅读并同意
+                            <a href="javascript:;">《九机网用户协议》</a>
+                        </label>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <button class="btn2">提交注册</button>
+                    </dd>
+                </dl>
+            </form>
+            <!-- 快速注册 -->
+            <div class="reg">
+                <dl>
+                    <dt>
+                        <i></i>手机号码
+                    </dt>
+                    <dd>
+                        <input type="text" id="usermobile">
+                        <em>手机号码非常重要，找回密码及购物都会用到</em></dd>
+                </dl>
+                <dl>
+                    <dt><i></i>短信验证码</dt>
+                    <dd>
+                        <input type="text" id="phonecode" style="width: 120px;">
+                        <a class="btn" id="getCode" href="javascript:countDown();">
+                            <span id="dyMobileButton">获取短信验证码</span></a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <input name="" id="mmprovision" type="checkbox" checked="checked" style="margin-right: 5px; vertical-align: middle;">
+                        <label for="mmprovision" style="color: #999;">我已认真阅读并同意
+                            <a href="#" target="_blank" style="color: #39f; margin: 0 5px;">《九机网用户协议》</a>
+                        </label>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <button onclick="Register()" id="regbut">提交注册</button></dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 滑动验证 -->
+        <!-- <div class="slide">
+            <div class="mask"></div>
+            <div class="slide-box">
+                <div class="img-box">
+                    <img src="images/reg/2.png" alt="">
+                </div>
+                <div class="btn-box">
+                    <div class="slideway">
+                        <p>向右拖动滑块完成上方拼图</p>
+                    </div>
+                    <div class="slide-btn">
+                        <div class="ku">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div> 
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/handlecookie.js"></script>
+<script src="js/reg.js"></script>
+</html>

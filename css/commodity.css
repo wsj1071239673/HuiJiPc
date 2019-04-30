@@ -1,0 +1,553 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+fieldset, img {
+    border: 0;
+}
+:focus {
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Microsoft Yahei', 'simsun', 'arial', 'tahoma';
+    color: #222;
+}
+
+.commodity {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.commodity .left-side {
+    width: 220px;
+    float: left;
+    /* background: #f3f3f3; */
+}
+
+.commodity .right-side {
+    width: 960px;
+    float: left;
+    /* background: #f3f3f3; */
+    margin-left: 10px;
+}
+
+.commodity .left-side .intell {
+    width: 199px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    line-height: 35px;
+    font-size: 14px;
+    /* text-shadow: 0 1px 0 #ffffff; */
+    padding: 0 10px;
+    background: #f3f3f3;
+}
+
+.commodity .left-side .intell1 {
+    width: 179px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    line-height: 35px;
+    font-size: 14px;
+    /* text-shadow: 0 1px 0 #ffffff; */
+    padding: 0 20px;
+    background: #f3f3f3;
+}
+
+.commodity .left-side .int-list {
+    width: 219px;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    /* display: none; */
+}
+
+.commodity .left-side .alllist {
+    display: none;
+}
+
+.commodity .left-side .int-list li {
+    width: 219px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #999;
+    text-indent: 30px;
+}
+
+.commodity .left-side .gbuy {
+    width: 220px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+.commodity .left-side .gbuy .bought {
+    width: 200px;
+    height: 35px;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 35px;
+    font-size: 14px;
+    /* text-shadow: 0 1px 0 #ffffff; */
+    padding: 0 10px;
+    background: #f3f3f3;
+}
+
+.commodity .left-side .gbuy .bought-list {
+    width: 200px;
+    height: 75px;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.commodity .left-side .gbuy .bought-list img {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.commodity .left-side .gbuy .bought-list h1 {
+    font-size: 14px;
+    height: 20px;
+    color: #000000;
+    line-height: 17px;
+}
+
+.commodity .left-side .gbuy .bought-list h2 {
+    font-size: 14px;
+    margin-top: 30px;
+    color: red;
+}
+
+.level-menu .allproduct {
+    width: 205px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #f20000;
+    color: #ffffff;
+}
+.level-menu  .level-menu-superior{
+    margin-top: 10px;
+}
+.level-menu  .level-menu-superior a span {
+    width: 100px;
+    height: 30px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    color: #333333;
+}
+.level-menu  .level-menu-superior a span:hover {
+    
+    color: #ec0000;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: #f20000;
+    /* margin-top: 15px; */
+    }
+
+/* 新上架商品开始 */
+.nav-pos{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.commodity .left-side .gbuy .newartic {
+    width: 200px;
+    height: 184px;
+    padding: 10px;
+    display: block;
+    /* border-bottom: 1px solid #dfdfdf; */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.commodity .left-side .gbuy .newartic img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    /* text-align: center;   */
+}
+
+.commodity .left-side .gbuy .newartic h1 {
+    color: #c80f1e;
+    text-align: center;
+    font-size: 14px;
+    margin: 7px 0;
+}
+
+.commodity .left-side .gbuy .newartic h2 {
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 新上架商品结束 */
+
+/* 右侧部分开始 */
+
+.right-side .right-box {
+    width: 100%;
+    /* height: 334px; */
+    border: 1px solid #dfdfdf;
+    /* overflow: hidden; */
+    position: relative;
+    /* padding: 10px 0;  */
+}
+
+.right-side .right-box .box-tit {
+    border-bottom: 1px solid #dfdfdf;
+    height: 35px;
+    background: #F2F2F2;
+    font-size: 16px;
+    padding: 5px 10px 0px;
+    color: #c80f1e;
+}
+
+.right-side .right-box .box-tit span {
+    font-size: 12px;
+    color: #949494;
+}
+
+.right-side .right-box .brandsort span {
+    float: left;
+    margin: 14px 20px;
+    font-size: 12px;
+}
+
+.right-side .right-box .brandsort span.more1 {
+    font-size: 12px;
+    color: #c80f1e;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.right-side .right-box .brandsort .brands {
+    width: 749px;
+    height: 91px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.right-side .right-box .brandsort {
+    width: 960px;
+    /* height: 112px; */
+    /* float: left; */
+}
+
+.right-side .right-box .brandsort .brands a {
+    display: block;
+    width: 105px;
+    height: 45px;
+    border: 1px solid #DAD7D7;
+    float: left;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.right-side .right-box .brandsort .brands a img {
+    width: 105px;
+    height: 45px;
+}
+
+/* 分类项目开始 */
+
+.right-box .search-condition {
+    padding: 10px 0 10px 15px;
+    /* border: 1px solid #dfdfdf; */
+    margin-top: 20px;
+    overflow: hidden;
+    height: 120px;
+   
+}
+.right-box .search-condition dl{
+    overflow: hidden;
+}
+.right-box .search-condition dl dt {
+    float: left;
+    width: 80px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.right-box .search-condition dl dd {
+    float: left;
+    width: 770px;
+}
+
+.right-box .search-condition dl .brand {
+    position: relative;
+}
+
+.right-side .more {
+    /* display: inline-block; */
+    width: 100px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 12px;
+   color: #c80f1e;
+   line-height: 30px;
+   margin-left: 430px;
+   margin-top: -1px;
+   z-index: 55;
+   cursor: pointer;
+}
+
+/* .right-box .search-condition dl dd i {
+    position: absolute;
+    top: 2px;
+    right: -41px;
+    font-size: 12px;
+    color: #ec0000;
+    cursor: pointer;
+} */
+
+.right-box .search-condition dl dd a {
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    text-align: center;
+    height: 22px;
+    line-height: 20px;
+    padding: 0 10px;
+    color: #333333;
+    margin-top: -10px;
+}
+
+.right-box .search-condition dl dd a.cur {
+    background: #ec0000;
+    color: #dfdfdf;
+}
+
+/* 分类项目结束 */
+
+/* 商品展示列表开始 */
+
+.rArticleTit {
+    width: 100%;
+    height: 40px;
+    background: #f3f3f3;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+.rArticleTit .roption {
+    height: 24px;
+    padding: 0 20px;
+    /* line-height: 40px; */
+    float: left;
+    border-right: 1px solid #dfdfdf;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.rArticleTit .rstore {
+    float: left;
+    margin-left: 80px;
+    margin-top: 9px;
+    padding-top: 1px;
+}
+
+.rArticleTit .rstore input {
+    margin-top: 5px;
+    float: left;
+}
+
+.rArticleTit .rstore span {
+    float: left;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.rArticleTit .range {
+    margin: 8px 0 0 110px;
+    float: left;
+}
+
+.rArticleTit .range span {
+    font-size: 14px;
+}
+
+.rArticleTit .range input {
+    width: 40px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.rArticleTit .pagefan {
+    float: left;
+    margin-left: 150px;
+    margin-top: 8px;
+}
+
+.rArticleTit .pagefan span {
+    font-size: 12px;
+}
+
+/*  商品开始 */
+
+.rightArticle .rlist li {
+    width: 200px;
+    margin: 7px;
+    padding: 10px;
+    height: 378px;
+    border: 3px solid transparent;
+    float: left;
+}
+
+.rightArticle .rlist li:hover {
+    border: 3px solid #dfdfdf;
+}
+
+.rightArticle .rlist li .bigpic {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.rightArticle .rlist li .bigpic img {
+    width: 200px;
+    height: 200px;
+}
+
+.rightArticle .rlist li .littlepic a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+}
+
+.rightArticle .rlist li .littlepic a:nth-child(1) {
+    border: 1px solid #ec0000;
+}
+
+.rightArticle .rlist li .littlepic a img {
+    width: 34px;
+    height: 34px;
+}
+
+.rightArticle .rlist li .line-1 {
+    font-size: 12px;
+    display: -webkit-box;
+    line-height: 18px;
+    height: 3em;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    color: #333333;
+}
+
+.rightArticle .rlist li h3 {
+    margin: 6px 0;
+    font-weight: 600;
+    color: #ec0000;
+}
+
+.rightArticle .rlist li .evaluate {
+    color: rgb(192, 190, 190);
+    font-size: 12px;
+}
+
+.rightArticle .rlist li .deadline {
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* 商品结束 */
+
+/* 猜你喜欢开始 */
+.guess-you{
+    width: 100%;
+    /* height: 200px; */
+    /* padding: 10px; */
+    border: 1px solid #dfdfdf;
+}
+.guess-you .guesstit{
+    height: 40px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-shadow: 0 1px 0 #fff;    
+}
+.guess-you>a{
+    display: inline-block;
+    width: 296px;
+    padding: 10px;
+   
+}
+.guess-you a img{
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.guess-you a .gue-ti{
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.guess-you a .gue-ti h1{
+    width: 150px;
+    margin-top: 5px;
+    color: #1f1e1e;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 40px;
+    -webkit-box-orient:vertical;
+    word-break:break-all;
+}
+.guess-you a .gue-ti h2{
+    color: #ec0000;
+    margin: 6px 0;
+}
+.guess-you a .gue-ti span{
+    width: 80px;
+    height: 30px;
+    background: #ec0000;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+/* 猜你喜欢结束 */
+
+/* 商品展示列表结束 */
+
+/* 右侧部分结束 */

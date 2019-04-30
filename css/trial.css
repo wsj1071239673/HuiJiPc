@@ -1,0 +1,361 @@
+
+body {
+    background: #f3f3f3;
+    font-family:'微软雅黑';
+}
+/*通用样式*/
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tryleft {
+    width: 900px;
+    float: left;
+}
+.tryright {
+    width: 290px;
+    float: right;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+/*通用样式end*/
+
+/* 轮播图 */
+.trybanner {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    border: solid 1px #ddd;
+    background: #fff;
+}
+.trybanner  .slide-pic{
+    position: relative;
+    width: 898px;
+    height: 244px;
+}
+.trybanner  .slide-pic li{
+    position: absolute;
+    width: 898px;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.trybanner  .slide-pic li.second{
+    display:block;
+}
+.trybanner  .slide-pic li a img{
+    width: 900px;
+    height: 240px;
+}
+/* 轮播点 */
+.trybanner .slide-li {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.trybanner .slide-li li {
+    float: left;
+    width: 16px;
+    height: 6px;
+    background: #ccc;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.trybanner .slide-li li.cur {
+    background: #c80f1e;
+}
+/* 轮播图 end*/
+/* 右侧活动公告 */
+.trybar{
+    border: solid 1px #ddd;
+    background: #fff;
+}
+.trybar h2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #c80f1e;
+    padding-left: 10px;
+    border-bottom: solid 1px #e3e3e3;
+}
+.trybar .test_gg {
+    padding: 10px 0;
+    min-height: 180px;
+}
+.trybar .test_gg ul li {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.trybar .test_gg ul li.last2 a{
+    color:#FF9933;
+}
+/* 右侧活动公告  end */
+/* 试用列表 */
+.tryout{
+    border: solid 1px #ddd;
+    background: #fff;
+    margin-top: 10px;
+}
+.tryout h2 {
+    height: 24px;
+    line-height: 24px;
+    margin: 20px;
+    padding-left: 30px;
+}
+.tryout h2 img{
+    width: 251px;
+    height: 24px;
+}
+.tryout h2 span {
+    float:right;
+    color: #999;
+    background: #fff;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 3px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.tryout h2 span em {
+    color: #c80f1e;
+}
+.tryout h2 .introduce{
+    float:right;
+    color:#39f;
+}
+.tryout h2 a {
+    margin-left: 20px;
+    color: #999;
+}
+.tryout .now_item {
+    width: 275px;
+    float: left;
+    margin-left: 20px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.tryout .now_item .item_img {
+    width: 216px;
+    height: 216px;
+    margin: 0 auto;
+}
+.now_item .item_img img{
+    width: 216px;
+    height: 216px;
+}
+.now_item .item_info {
+    margin-top: 5px;
+}
+.now_item .item_info h3 {
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.now_item .item_info h3 a {
+    font-size: 16px;
+    color: #333;
+}
+
+.now_item .item_info p {
+    font-size: 14px;
+    max-height: 42px;
+    overflow: hidden;
+    color: #999;
+    margin-top: 3px;
+}
+
+.now_item .item_info dl {
+    margin-top: 6px;
+    color: #999;
+}
+
+.now_item .item_info dl dt {
+    float: left;
+}
+
+.now_item .item_info dl dd.price {
+    color: #c80f1e;
+}
+
+.now_item .item_info dl dd.whotest {
+    margin-left: 60px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.now_item .item_info dl dd.whotest a {
+    white-space: nowrap;
+    display: inline-block;
+}
+/* 试用列表 end*/
+/* 往期回顾 */
+.past .li_item{
+    border-bottom: solid 1px #e3e3e3;
+    margin: 10px 50px;
+    padding: 10px 0;
+}
+.past .li_item .item_img {
+    float: left;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.li_item .item_img img{
+    width: 200px;height: 200px;
+}
+
+.past  .li_item .item_info {
+    margin-left: 210px;
+    margin-top: 5px;
+}
+
+.past  .li_item2 .item_img {
+    float: right;
+}
+
+.past  .li_item2 .item_info {
+    margin-right: 210px;
+    margin-left: 0;
+}
+
+.li_item .item_info h3 a {
+    font-size: 16px;
+    color: #333;
+}
+
+.li_item .item_info p {
+    font-size: 14px;
+    
+}
+
+.li_item .item_info dl {
+    margin-top: 6px;
+}
+
+.li_item .item_info dl dt {
+    float: left;
+}
+
+.li_item .item_info dl dd.price {
+    color: #c80f1e;
+}
+
+.li_item .item_info dl dd.whotest {
+    margin-left: 60px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.li_item .item_info dl dd.whotest a {
+    white-space: nowrap;
+    display: inline-block;
+    color: #39f;
+    cursor: pointer;
+}
+/* 申请使用按钮 */
+.try_btn {
+    margin-top: 10px;
+}
+.try_btn a {
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    background: #c80f1e;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.try_btn span {
+    margin-left: 30px;
+}
+.try_btn span em {
+    color: #c80f1e;
+}
+/* 精华报告 */
+.report-box{
+    border: solid 1px #ddd;
+    background: #fff;
+    margin-top: 10px;
+}
+.report-box h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #c80f1e;
+    padding-left: 10px;
+    border-bottom: solid 1px #e3e3e3;
+}
+.report {
+    padding: 0 15px 10px;
+}
+.reportul li {
+    margin-top: 10px;
+}
+.report ul li h3 {
+    font-size: 14px;   
+}
+.report ul li p span {
+    margin-left: 30px;
+}
+.report ul li .test_arc{
+    color: #bbb;
+}
+.report ul li .test_arc:hover {
+    color: #999;
+}
+.report ul li .bg_img {
+    margin-top: 8px;
+}
+.report ul li .bg_img img{
+    width: 60px;
+}
+
+/* 分页 */
+.nextpages {
+    text-align: center;
+    border-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 33px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nextpages span{
+    padding-right: 10px;
+    color: #666;
+    line-height: 33px;
+}
+.nextpages a{
+    padding: 0 6px;
+    border:1px solid #dedede;  
+}
+.nextpages a:hover{
+    text-decoration: none;
+}
+.nextpages .cur {
+    text-decoration: none;
+    color: #fff;
+    background: #c80f1e;
+    border: 1px solid #c80f1e;
+}
+
+/* 底部 */
+.footer{
+    height: 50px;
+    background: #FF9933;
+}
+

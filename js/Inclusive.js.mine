@@ -1,0 +1,138 @@
+function tanchu() {
+    var popup = document.querySelector(".popup");
+    var perCenter = document.querySelector('.perCenter');
+
+    popup.onmouseover = function () {
+        perCenter.style.display = "block";
+    }
+    popup.onmouseout = function () {
+        perCenter.style.display = "none";
+    }
+    perCenter.onmouseover = function () {
+        perCenter.style.display = "block";
+    }   
+    perCenter.onmouseout = function () {
+        perCenter.style.display = "none";
+    }
+    
+
+    var site = document.querySelector(".site");
+    var siteChoose = document.querySelector('.site-choose');
+
+    
+
+}
+tanchu();
+
+// 地址弹出选择
+
+function site() {
+    var site = document.querySelector(".site");
+    var siteChoose = document.querySelector('.site-choose');
+    
+    
+    site.onmouseover = function () {
+        siteChoose.style.display = "block";
+    }
+    site.onmouseout = function () {
+        siteChoose.style.display = "none";
+    }
+    siteChoose.onmouseover = function () {
+        siteChoose.style.display = "block";
+    }   
+    siteChoose.onmouseout = function () {
+        siteChoose.style.display = "none";
+    } 
+
+    var client = document.querySelector(".client");
+    var clientDown = document.querySelector('.client-down');
+    client.onmouseover = function () {
+        clientDown.style.display = "block";
+    }
+    client.onmouseout = function () {
+        clientDown.style.display = "none";
+    }
+    clientDown.onmouseover = function () {
+        clientDown.style.display = "block";
+    }   
+    clientDown.onmouseout = function () {
+        clientDown.style.display = "none";
+    } 
+
+    var gnav = document.querySelector(".gnav");
+    var gnavList = document.querySelector('.gnav-list');
+    gnav.onmouseover = function () {
+        gnavList.style.display = "block";
+    }
+    gnav.onmouseout = function () {
+        gnavList.style.display = "none";
+    }
+    gnavList.onmouseover = function () {
+        gnavList.style.display = "block";
+    }   
+    gnavList.onmouseout = function () {
+        gnavList.style.display = "none";
+    } 
+
+    var number = document.querySelector(".number");
+    var gCall = document.querySelector('.gCall');
+    number.onmouseover = function () {
+        gCall.style.display = "block";
+    }
+    number.onmouseout = function () {
+        gCall.style.display = "none";
+    }
+    gCall.onmouseover = function () {
+        gCall.style.display = "block";
+    }   
+    gCall.onmouseout = function () {
+        gCall.style.display = "none";
+    } 
+    
+}
+site();
+
+
+
+// 搜索效果
+
+function cb(data) {
+    console.log(data);
+    var SearchRes = document.querySelector('.SearchRes');
+    for (var i in data) {
+        var node = document.createElement('li');
+        node.innerHTML = "<span>" + data[i] + "</span>";
+        SearchRes.appendChild(node);
+    }
+}
+var seach = document.querySelector(".gseach");
+seach.onkeyup = function () {
+    var scriptEl = document.createElement("script");
+    scriptEl.src = "https://sug.so.360.cn/suggest?word=" + this.value + "&encodein=utf-8&encodeout=utf-8&pq=&callback=cb";
+    document.body.appendChild(scriptEl);
+}
+
+
+// 右侧弹出导航开始
+    $(function(){
+        $('.righticon li').mouseover(function () {
+            $(this).css({ background: 'rgba(255,0,0,0.5)' }).siblings().css({ background: 'none' })
+            $('.rightpop li').eq($(this).index()).show().siblings().hide();
+            // $('.rightpop li em').eq($(this).index()).show().siblings().hide();
+        })
+        $('.righticon li').mouseout(function () {
+         $(this).css({background:'none'})
+            $('.rightpop li').eq($(this).index()).hide();
+            // $('.rightpop li em').eq($(this).index()).hide();
+        })
+        $('.rightpop li').mouseover(function () {  
+           
+            $(this).show();
+        })
+        $('.rightpop li').mouseout(function () {
+           
+            $(this).hide();
+            $('.righticon li').eq($(this).index()).css({background:"none"})
+        })
+    })
+cd();

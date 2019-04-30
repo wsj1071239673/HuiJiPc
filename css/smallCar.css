@@ -1,0 +1,144 @@
+.clearfix:after{
+    content:".";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+.small-car{
+    width: 320px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #f5f5f5;
+    display:none;
+}
+.small-car .pict,.small-car .small-head .wen{
+    float: left;
+    margin-right: 5px;
+}
+.small-car .small-head{
+    height: 40px;
+    width: 280px;
+    background: #f5f5f5;
+    padding: 0 10px ;
+    font-size: 16px;
+    line-height: 40px;
+}
+.small-car .small-head img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.small-car .lista{
+    margin-bottom: 15px;
+    background-color: #fff;
+    height: 70px; 
+   padding: 10px; 
+}
+.small-car .lista li{
+    float: left;
+}
+.small-car .lista .box{
+    display: block;
+    width: 60px;
+    height: 60px;;
+}
+.small-car .lista a img{
+    width: 60px;
+    height: 60px;
+    border: solid 1px #eee;
+}
+.small-car .lista .all-car{
+    width: 240px;
+}
+.small-car .lista .all-car .intro{
+    display:block;
+    height: 36px;
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+}
+.small-car .danjia{
+    color: #c80f1e;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.small-car .reoption .singleNum{
+    float:left;
+    width: 20px;
+    height: 18px;
+    background-color: #ebebe4;
+    border: solid 1px #dfdfdf;
+    text-align: center;
+    background-color: rgb(235, 235, 228);
+}
+.small-car .reoption a{
+    margin:0 5px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border: solid 1px #dfdfdf;
+    background: #f5f5f5;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.small-car .reoption{
+    width: 82px;
+    display: inline-block;
+    /* margin-top: 3px; */
+}
+.small-car .del{
+    color: #c80f1e;
+    font-size: 13px;
+}
+.small-car .bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 302px;
+    height: 75px;
+    padding: 5px;
+    border-top: solid 1px #dfdfdf;
+}
+.small-car .mess{
+    text-align: center;
+    font-size: 12px;
+}
+.small-car .mess a{
+    color: #c80f1e;
+    font-weight: bold;
+}
+.small-car .fina{
+    width: 280px;
+    margin: 10px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    background: #c80f1e;
+    color: #fff;
+    border-color: #c80f1e;
+}
+.small-car .none{
+    display: none;
+    height: 142px;
+    margin: 30px 0;
+}
+.small-car .car-tu{
+    text-align: center;
+}
+.small-car .final-wen{
+    font-size: 13px;
+    text-align: center;
+}
+.small-car .final-wen a{
+    color: #c80f1e;
+}

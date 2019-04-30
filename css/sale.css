@@ -1,0 +1,857 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+ul li{
+    list-style: none;
+}
+/* 通用样式 */
+
+/* banner开始 */
+.wrapper{
+    width: 1800px;
+}
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
+.sale-banner{
+    width: 1200px;
+    height: 400px;
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.sale-banner-pic{
+    width: 2400px;
+}
+.sale-banner-pic ul{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+}
+.sale-banner-tu1{
+    float: left;
+    width: 1200px;
+    height: 400px;
+    background: url('../images/imgs-sale/10.jpg') no-repeat center;
+}
+.sale-banner-tu2{
+    float: left;
+    width: 1200px;
+    height: 400px;
+    background: url('../images/imgs-sale/4.jpg') no-repeat center;
+}
+.sale-banner ul{
+    width: 220px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -60px;
+}
+.sale-banner ul li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(255,255,255,0.6);
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+/* banner图结束 */
+
+/* 维修导航开始 */
+.sale-nav{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sale-nav li{
+    width: 400px;
+    height: 90px;
+    float: left;
+}
+.sale-title{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+}
+.sale-title i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title i.icon1{
+    background-position: 0 0;
+}
+.sale-title span{
+    color: #333;
+    font-size: 16px;
+}
+.sale-details{
+    width: 367px;
+    height: 24px;
+    margin: 5px 0 10px 32px;
+}
+.sale-details a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sale-center{
+    width: 400px;
+    height: 90px;
+    position: relative;
+}
+.sale-title1{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 25%;
+    overflow: hidden;
+}
+.sale-title1 i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title1 i.icon2{
+    background-position: 0 -32px;
+}
+.sale-title1 span{
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+.sale-details1{
+    width: 367px;
+    height: 24px;
+    position: absolute;
+    left: 25%;
+    margin: 5px 0 10px 32px;
+}
+.sale-details1 a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sale-reght{
+    width: 400px;
+    height: 90px;
+    position: relative;
+}
+.sale-title2{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    margin-left: 50%;
+    overflow: hidden;
+}
+.sale-title2 i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title2 i.icon3{
+    background-position: 0 -64px;
+}
+.sale-title2 span{
+    color: #333;
+    font-size: 16px;
+}
+.sale-details2{
+    width: 367px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top:34px;
+    margin: 5px 0 10px 32px;
+}
+.sale-details2 a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sale-title3{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+}
+.sale-title3 i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title3 i.icon4{
+    background-position: -33px 0;
+}
+.sale-title3 span{
+    color: #333;
+    font-size: 16px;
+}
+.sale-details3{
+    width: 367px;
+    height: 24px;
+    margin: 5px 0 10px 32px;
+}
+.sale-details3 a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sale-center-1{
+    width: 400px;
+    height: 90px;
+    position: relative;
+}
+.sale-title4{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 25%;
+    overflow: hidden;
+}
+.sale-title4 i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title4 i.icon5{
+    background-position: -33px -32px;
+}
+.sale-title4 span{
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+.sale-details4{
+    width: 190px;
+    height: 48px;
+    position: absolute;
+    left: 25%;
+    margin: 5px 0 10px 32px;
+}
+.sale-details4 a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.sale-reght-1{
+    width: 400px;
+    height: 90px;
+    position: relative;
+}
+.sale-title5{
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    margin-left: 50%;
+    overflow: hidden;
+}
+.sale-title5 i{
+    width: 33px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('../images/imgs-sale/222.png') no-repeat center;
+}
+.sale-title5 i.icon6{
+    background-position: -33px -64px;
+}
+.sale-title5 span{
+    color: #333;
+    font-size: 16px;
+}
+.sale-details5{
+    width: 367px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top:34px;
+    margin: 5px 0 10px 32px;
+}
+.sale-details5 a{
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+/* 维修导航结束 */
+
+/* 预约维修开始  */
+.sale-service{
+    width: 1200px;
+    height: 265px;
+}
+.sale-service-nav{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+}
+.sale-service dt{
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sale-service dt::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 42%;
+    width: 5px;
+    border-radius: 3px;
+    background: #e12f2e;
+}
+.sale-service-list{
+    width: 1200px;
+    height: 25px;
+}
+.sale-service-list span{
+    font-size: 14px;
+    color: #666;
+}
+.sale-service-list .shop{
+    margin-right: 30px;
+}
+.sale-service-tab{
+    width: 1142px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+.sale-service-item{
+    height: 186px;
+    margin-top: 20px;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+}
+.sale-service-item li a img{
+    width: 37px;
+    height: 37px;
+}
+.sale-service-item a{
+    height: 60px;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.sale-service-item-1{
+    width: 163px;
+    height: 91px;
+    border: 1px solid #666;
+    float: left;
+}
+.sale-service-item-1 a img{
+    width: 37px;
+    height: 37px;
+    display: block;
+    margin-left: 60px; 
+}
+.sale-service-item-1 a span{
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    color: #666;
+    text-align: center;
+}
+.sale-service-item-2{
+    width: 163px;
+    height: 91px;
+    border: 1px solid #666;
+    float: left;
+}
+.sale-service-item-2 a img{
+    width: 37px;
+    height: 37px;
+    display: block;
+    margin-left: 60px;
+}
+.sale-service-item-2 a span{
+    font-size: 12px;
+    margin: 5px;
+    display: block;
+    color: #666;
+    text-align: center;
+}
+/* 预约维修结束 */
+
+/* 九机快修开始 */
+.sale-quick{
+    width: 1200px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.sale-quick dt{
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sale-quick dt::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 42%;
+    width: 5px;
+    border-radius: 3px;
+    background: #e12f2e;
+}
+.sale-quick-list{
+    width: 1200px;
+    height: 25px;
+}
+.sale-quick-list a{
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+.sale-quick-list .shopp{
+    margin-right: 30px;
+}
+.sale-quick-box{
+    width: 1200px;
+    height: 119px;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+.sale-quick-box a{
+    float: left;
+    margin-right: 49px;
+    display: block;
+    width: 242px;
+    height: 119px;
+    border: 1px solid #fd9712;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.sale-quick-box p{
+    padding-top:15px;
+    padding-left: 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color:#fd9712;
+    font-weight: bold;
+}
+.sale-quick-box a p .qk1{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url('../images/imgs-sale/36.png') no-repeat 0 0;
+}
+.sale-quick-box a p i.qk1{
+    background-position: 0 0;
+}
+.sale-quick-box1{
+    text-align: center;
+    padding-top:20px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.sale-quick-box1 span{
+    color: #666;
+    font-size: 12px;
+}
+.sale-quick-box1 span b{
+    margin-right: 15px;
+    font-size: 18px;
+    color:#fd9712;
+}
+.sale-quick-box1 i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/imgs-sale/36.png') no-repeat 0 0;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+.sale-quick-box1 i.qk2{
+    background-position: -63px -3px;
+}
+.sale-quick-box a .qk3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 100%;
+    text-indent: 10px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #fd9712;
+}
+.sale-quick-box .first{
+    display: block;
+    width: 242px;
+    height: 119px;
+    border: 1px solid #fd9712;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.sale-quick-box .first p{
+    padding-top:15px;
+    padding-left: 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color:#39f;
+    font-weight: bold;
+}
+.sale-quick-box .first p .qk12{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url('../images/imgs-sale/36.png') no-repeat 0 0;
+}
+.sale-quick-box .first p i.qk12{
+    background-position: -30px 0;
+}
+.sale-quick-box12{
+    text-align: center;
+    padding-top:20px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.sale-quick-box12 span{
+    color: #666;
+    font-size: 12px;
+}
+.sale-quick-box12 span b{
+    margin-right: 15px;
+    font-size: 18px;
+    color:#39f;
+}
+.sale-quick-box12 i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/imgs-sale/36.png') no-repeat 0 0;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+.sale-quick-box12 i.qk22{
+    background-position: -63px -3px;
+}
+.sale-quick-box .first .qk32{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 100%;
+    text-indent: 10px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39f;
+}
+/* 维修结束 */
+
+/* 维修流程开始 */
+.sale-service-flow{
+    width: 1200px;
+    height: 334px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.sale-service-flow dt{
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sale-service-flow dt::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 42%;
+    width: 5px;
+    border-radius: 3px;
+    background: #e12f2e;
+}
+.sale-service-center{
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.sale-service-center-1{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.sale-service-center-1 li{
+    width: 86px;
+    float: left;    
+}
+.sale-service-center-1 li p{
+    font-size: 12px;
+    color: #666;
+}
+.ctr1{
+    margin-left: 66px;
+}
+.ctr2{
+    margin-left: 231px;
+}
+.ctr3{
+    margin-left: 222px;
+}
+.ctr4{
+    margin-left: 246px;
+}
+.sale-service-center-2{
+    margin-top: 20px;
+    width: 1200px;
+    height: 24px;
+    margin: 0 auto;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+.sale-service-center-2 p{
+    line-height: 24px;
+    font-size: 12px;
+    color: #9c9c9c;
+}
+/* 维修流程结束 */
+
+/* 实力展示开始 */
+.sale-service-abliity{
+    width: 1200px;
+    height: 245px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.sale-service-abliity dt{
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sale-service-abliity dt::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 42%;
+    width: 5px;
+    border-radius: 3px;
+    background: #e12f2e;
+}
+.sale-service-abliity-fixed{
+    width: 1200px;
+    height: 204px;
+    margin: 0 auto;
+}
+.sale-service-abliity-fixed1{
+    position: relative;
+    height: 202px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    overflow: hidden;
+    padding-left: 260px;
+    background: url('../images/imgs-sale/41.png') no-repeat left center; 
+}
+.sale-abliity-center{
+    width: 882px;
+    height: 204px;
+    float: left;
+    overflow: hidden;
+    padding-left:25px;
+}
+.sale-abliity-list1{
+    width: 880px;
+    height: 204px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.sale-abliity-list2{
+    width: 2336px;
+    height: 204px;
+    position: relative;
+}
+.sale-abliity-list2 li{
+    width: 251px;
+    height: 204px;
+    float: left;
+    padding: 28px 20px;
+    border-right: 1px solid #e6e6e6;
+    position: relative;
+    left: 5px;
+}
+.sale-service-abliity-fixed1-content{
+    width: 880px;
+    height: 204px;
+    float: left; 
+}
+.sale-service-abliity-fixed1-content span{
+    width: 251px;
+    height: 25px;
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sale-service-abliity-fixed1-content p{
+    width: 251px;
+    height: 25px;
+    font-size: 12px;
+    color: #333;
+    margin-top: 8px;
+    line-height: 25px;
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sale-service-abliity-fixed1-content p b{
+    font-weight: normal;
+    color: #3baaff;
+}
+.sale-service-abliity-fixed1-content p em{
+    margin: 0 5px;
+    color: #c80f1e;
+    font-style: normal;
+    font-weight: normal;
+}
+.sale-service-abliity-fixed1 .sale-lt{
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 36px;
+    display:block;
+    line-height: 36px;
+    background: url('../images/imgs-sale/banner_left.png') no-repeat center;
+}
+.sale-service-abliity-fixed1 .sale-rt{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 24px;
+    height: 36px;
+    display:block;
+    line-height: 36px;
+    background: url('../images/imgs-sale/banner_right.png') no-repeat center;
+}
+/* 实力展示结束 */
+
+/* 联系我们开始  */
+.sale-relation{
+    width: 1200px;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.sale-relation dt{
+    position: relative;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sale-relation dt::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 42%;
+    width: 5px;
+    border-radius: 3px;
+    background: #e12f2e;
+}
+.sale-relation-box{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.sale-relation-box li{
+    width: 315px;
+    height: 275px;
+    background-color: #fff;
+    margin: 5px 30px;
+    cursor: pointer;
+    float: left;
+}
+/* 联系我们结束 */

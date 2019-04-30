@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+ul li{
+    list-style: none;
+}
+/* 主体部分开始 */
+.wrapper{
+    width: 1200px;
+    height: 3500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* imgbanner开始 */
+.imgbanner{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.imgbanner ul{
+    width: 6000px;
+}
+.imgbanner ul li{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    float: left;
+    /* display: none; */
+}
+.imgbanner ul .bg1{
+    background-size: 1200px 400px;
+    background: url('../images/imgs-sale/003.png') no-repeat 0 0;
+}
+.imgbanner ul .bg2{
+    background-size: 1200px 400px;
+    background: url('../images/imgs-sale/006.jpg') no-repeat 0 0;
+}
+.imgbanner ul .bg3{
+    background-size: 1200px 400px;
+    background: url('../images/imgs-sale/004.png') no-repeat 0 0;
+}
+.imgbanner ul .bg4{
+    background-size: 1200px 400px;
+    background: url('../images/imgs-sale/005.png') no-repeat 0 0;
+}
+.imgbanner ul .bg5{
+    background-size: 1200px 400px;
+    background: url('../images/imgs-sale/007.jpg') no-repeat 0 0;
+}
+.imgbanner span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    width: 1190px;
+    padding-left: 10px;
+    line-height: 40px;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.imgbanner i{
+    display: inline-block;
+    width: 46px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;;
+    background: url('../images/imgs-sale/036.png') no-repeat;
+}
+.imgbanner i.lt{
+    left: 10px;
+    background-position: -36px 0;
+}
+.imgbanner i.rt{
+    right: 10px;
+    background-position: -81px 0;
+}
+.imgbanner .circle{
+    width: 305px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    overflow: hidden;
+}
+.imgbanner .circle li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #b0aca4;
+    margin: 0 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    border: 5px solid #b0aca4;
+}
+/* imgbanner结束 */
+
+/* 左侧导航开始 */
+/* 目录开始 */
+.nav-left{
+    width: 220px;
+    height: 1049px;
+    padding-top: 10px;
+    float: left;
+}
+.nav-left .director{
+    width: 177px;
+    padding:20px;
+    border: 1px solid #dbdbdb;
+}
+.nav-left .director p{
+    height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.nav-left .director ul{
+    width: 177px;
+    height: 200px;
+}
+.nav-left .director ul li{
+    width: 177px;
+    height: 40px;
+    overflow: hidden;
+}
+.nav-left .director ul li i{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 13px;
+    background: url('../images/imgs-sale/036.png') no-repeat;
+}
+.nav-left .director ul li .ig1{
+    background-position: 0 0;
+}
+.nav-left .director ul li .ig2{
+    background-position: 0 -16px;
+}
+.nav-left .director ul li .ig3{
+    background-position: 0 -32px;
+}
+.nav-left .director ul li .ig4{
+    background-position: 0 -48px;
+}
+.nav-left .director ul li .ig5{
+    background-position: 0 -64px;
+}
+.nav-left .director ul li a{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+}
+.nav-left .director ul li em{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right:2px;
+    margin-top: -5px;
+    background: url('../images/imgs-sale/036.png') no-repeat -2px -85px;
+    display: none;
+}
+/* 目录结束 */
+/* 输入框开始 */
+.nav-left .ipt{
+    margin: 20px 0;
+    width: 217px;
+    height: 36px;
+    overflow: hidden;
+    border-color: #45A1DE;
+    border-radius: 5px;
+    border-width: 2px;
+    box-shadow: none;
+    background-color: #45A1DE;
+    border: solid #45A1DE;
+
+}
+.nav-left .ipt .ctr{
+    width: 217px;
+    height: 36px;
+    overflow: hidden;
+}
+.nav-left .ipt .in{
+    width: 168px;
+    height: 34px;
+    line-height: 34px;
+    margin-right: -1px;
+    float: left;
+    border-color: #45A1DE;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    text-indent: 5px;
+}
+.nav-left .ipt .sub{
+    width: 48px;
+    height: 34px;
+    line-height: 34px;
+    color: #000000;
+    background-color: #45A1DE;
+    float: left;
+    border-color: #45A1DE;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* 输入框结束 */
+/* 手机新品开始 */
+.nav-left .newss{
+    width: 220px;
+    height: 686px;
+    margin-top: 10px;
+    border: 1px solid #dbdbdb;
+}
+.nav-left .newss h3{
+    height: 48px;
+    line-height: 40px;
+    padding-left: 9px;
+    font-size: 14px;
+    color: #333;
+    background: url('../images/imgs-sale/044.png') no-repeat center bottom;
+}
+.nav-left .newss ul{
+    width: 220px;
+    padding-bottom: 12px;
+}
+.nav-left .newss ul li{
+    width: 204px;
+    height: 70px;
+    margin-top: 7px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e8e8e8;
+}
+.nav-left .newss ul li a{
+    height: 70px;
+    text-decoration: none;
+    color: #333;
+    float: left;
+}
+.nav-left .newss ul li h6{
+    width: 134px;
+    height: 38px;
+    line-height: 118px;
+    padding-top: 7px;
+    overflow: hidden;
+    float: left;
+}
+.nav-left .newss ul li h6 a{
+    line-height: 18px;
+    color: #024293;
+    float: left;
+}
+.nav-left .newss ul li p{
+    color: #999;
+    font-size: 12px;
+    float: left;
+}
+.nav-left .newss ul li p span{
+    color: #f33;
+    font-size: 14px;
+}
+/* 手机新品结束 */
+/* 左侧导航结束 */
+
+/* 后侧导航开始 */
+.nav-right{
+    width: 900px;
+    height: 2481px;
+    margin-top: 10px;
+    float: right;
+}
+.nav-right li{
+    width: 900px;
+    height: auto;
+    box-shadow: 0 0 10px 3px #e3e3e3;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #e8e8e8;
+}
+.nav-right li a.img{
+    width: 900px;
+    height: 300px;
+    text-decoration: none;
+}
+.nav-right li h3{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.nav-right li h3 a{
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+.nav-right li p{
+    font-size: 14px;
+    color: #999;
+    padding: 0 20px;
+    line-height: 25px;
+}
+.nav-right li p a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.nav-right .import{
+    padding: 10px 20px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.nav-right .import em{
+    float: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+.nav-right .import .import-rt{
+    width: 310px;
+    height: 25px;
+    float: right;
+}
+.nav-right .import .import-rt span{
+    display: inline-block;
+    margin-left: 25px;
+    line-height: 23px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.nav-right .import .import-rt span i{
+    width: 32px;
+    height: 23px;
+    display: inline-block;
+    background: url('../images/imgs-sale/036.png') no-repeat 0 0;
+}
+.nav-right .import .import-rt span .irt1{
+    float: left;
+    background-position: 0 -93px;
+}
+.nav-right .import .import-rt span .irt2{
+    float: left;
+    background-position: 0 -117px;
+}
+.nav-right .import .import-rt a{
+    margin-left: 25px;
+    line-height: 23px;
+    display: inline-block;
+    cursor: pointer;
+}
+.nav-right .import .import-rt a i{
+    width: 32px;
+    height: 23px;
+    display: inline-block;
+    background: url('../images/imgs-sale/036.png') no-repeat 0 0;
+}
+.nav-right .import .import-rt a .atu{
+    float: left;
+    background-position: 0 -140px;
+}
+.nav-right .import .import-rt a em{
+    color: #333;
+}
+/* page开始 */
+.nav-page{
+    height: 45px;
+    padding-top: 35px;
+    color: #48b9ef;
+    text-align: right;
+    border-top: 2px solid #bcbcbc;
+    margin-top: 50px;
+}
+.nav-page span{
+    padding-right: 10px;
+    color: #666;
+}
+.nav-page a{
+    text-decoration: none;
+    color: #fff;
+    background: #ff6c16;
+    border: 1px solid #c80f1e;
+    padding: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-left:7px;
+    padding-right: 7px;
+}
+/* page结束 */

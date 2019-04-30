@@ -1,0 +1,386 @@
+.main-car{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px; 
+}
+.main-car a{
+    cursor: pointer;
+}
+.clearfix:after{
+    content:".";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;;
+}
+/* 购物车头部开始 */
+.header-car{
+    margin-bottom: 35px;
+}
+.header-car .logo-car{
+    width:120px; 
+    font-size: 0; 
+    float: left;
+}
+.header-car .logo-car img{
+    width:120px;  
+}
+.header-car .circle-car{
+    float: right;
+}
+.header-car .circle-par{
+    float: left;
+    background: #c80f1e;;
+    height: 8px;
+    width: 120px;
+    position: relative;
+    top: 15px;
+}
+.header-car .circle-par-son1{
+    background: #c80f1e;
+    width: 24px;
+    height: 24px;
+    color:white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    line-height: 24px;
+    text-align: center;
+    border: solid 1px #c80f1e;
+    border-radius: 100%;
+    font-size: 14px;
+}
+.header-car .circle-par-son2{
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    margin-left: -60px;
+    width: 120px;
+    color: #c80f1e;
+    text-align: center;
+    font-weight: bold;
+}
+.header-car .par-te{
+    background: #dfdfdf;
+}
+.header-car .son1-te{
+    background: #dfdfdf;
+    border: solid 1px #ccc;
+    color: #333;
+}
+.header-car .son2-te{
+    color: #333;
+}
+/* 购物车头部结束 */
+/* 购物车列表开始 */
+.core-car .infor-car{
+    height: 30px;
+    border-bottom:2px solid #dfdfdf;
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.core-car .allShop{
+    float:left;
+    height: 30px;
+    padding: 0 5px;
+    color: #c80f1e;
+    border-bottom: solid 2px #c80f1e;
+}
+.core-car .allShop2{
+    float:right;
+}
+.core-car .allShop2 .selectNum,.core-car .allShop2 .allPrice{
+    color: #c80f1e;
+    font-weight: bold;
+}
+.core-car .car-head li,.core-car .car-body li{
+    float: left;
+    font-size: 14px;
+}
+.core-car .lab,.core-car .lab-xuan,.core-car .lab-foot{
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+}
+.core-car .checkAll,.core-car .checkSingle,.core-car .checkAll-foot{
+    outline: none;
+    border: none !important;
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    box-shadow: none !important;
+    font-size: 100%;
+    vertical-align: middle;
+} 
+.core-car .checkAll:after,.core-car .checkSingle:after,.core-car .checkAll-foot:after{
+    content: '';
+    background: #fff;
+    background-position: center top;
+    width: 16px;
+    height:16px;
+    position: absolute;
+    top: 1px !important;
+    left: 0 !important;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../images/shopCar/car26.png);
+}
+.core-car .checkAll:checked:after,.core-car .checkSingle:checked:after,.core-car .checkAll-foot:checked:after{
+    content: '';
+    background-position: center bottom;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    box-shadow: none !important;
+}
+.core-car .car-head1{
+    margin-right: 108px;
+}
+.core-car .car-head2,.core-car .car-body2{
+   width: 445px;
+}
+.core-car .car-head3,.core-car .car-head4,.core-car .car-head5,.core-car .car-head6,.core-car .car-body3,.core-car .car-body4,.core-car .car-body5,.core-car .car-body6{
+    width: 120px;
+}
+.core-car .option{
+    margin-bottom: 20px;
+}
+.core-car .car-body{
+    width: 1183px;
+    height: 80px;
+    padding: 15px 0 15px 15px;
+    margin-top: 10px;
+    border: solid 1px #dfdfdf;
+}
+.core-car .lab-xuan,.core-car .car-body1 a{
+    float: left;
+}
+.core-car .car-body1{
+    margin-right: 23px;
+}
+.core-car .car-body1 a img{
+    width: 78px;
+    height: 78px;
+    border: solid 1px #eee;
+    margin-left: 20px;
+}
+.core-car .car-body5 .singleNum{
+    float:left;
+    width: 25px;
+    height: 20px;
+    background-color: #ebebe4;
+    border: solid 1px #dfdfdf;
+    text-align: center;
+}
+.core-car .car-body5 a{
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: solid 1px #dfdfdf;
+    background: #f5f5f5;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+}
+.core-car .car-body3{
+    font-size: bold;
+}
+.core-car .car-body6{
+    font-size: bold;
+    color: #c80f1e;
+}
+.core-car .car-body a{
+    display: block;
+    text-decoration: none;
+}
+.core-car .core-foot{
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.core-car .car-foot{
+    float: left;
+}
+.core-car .car-foot li{
+    float: left;
+    font-size: 16px;
+}
+.core-car .car-foot1{
+    margin-right: 25px;
+}
+.core-car .all-foot{
+    float: right;
+    font-size: 16px;
+}
+.core-car .selectNum-foot,.core-car .allPrice-foot{
+    color: #c80f1e;
+    font-weight: bold;
+}
+.core-car .bgpic{
+    height: 30px;
+    float: right;
+    font-size: 0;
+    padding: 10px 0;
+    margin-right: 20px;
+}
+.core-car .bgpic img{
+    width: 20px;
+    height: 20px;
+}
+.core-car .finalSuan{
+    position: relative;
+    display: block;
+    float: right;
+    border: 0;
+    background: #c80f1e;
+    height: 50px;
+    padding: 0 25px;
+    font-size: 18px;
+    float: right;
+    border-radius: 0;
+    margin-left: 18px;
+    letter-spacing: 5px;
+}
+.core-car .finalSuan a{
+    color: #fff;  
+    text-decoration: none;
+}
+.core-car .finalSuan a::after{
+    content: '';
+    width:0;
+    height:50px;
+    position: absolute;
+    left:48px;
+    top: 0;
+    background: rgba(255,255,255,.4);
+    transition: all .3s;
+}
+.finalSuan:hover .finalSuan a::after{
+    width: 96px;
+    left: 0;
+}
+.core-car .car-tu{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+.core-car .final-wen{
+    text-align: center;
+}
+.core-car .final-wen a{
+    color: #c80f1e;
+    text-decoration: none;
+}
+.core-car .none{
+    display: none;
+    height: 142px;
+    margin: 30px 0;
+}
+/*购物车列表结束*/
+.bottom-car{
+    position: relative;
+    width: 1198px;
+    border: 1px solid #dfdfdf;
+    margin: 20px 0;
+}
+.bottom-car .title-car p{
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bottom-car .rotate-car{
+    width: 1135px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bottom-car .rotate-car img{
+    width: 160px;
+    height: 160px;
+}
+.bottom-car .rotate-car li{
+    width: 207px;
+    padding: 10px 10px;
+    float: left;
+}
+.bottom-car .rotate-car li a{
+    display: block;
+    text-align: center;
+}
+.bottom-car .rotate-car .pic-car{
+    width: 3405px;
+}
+.bottom-car .rotate-car .introduce{
+    text-align: center;
+    height: 36px;
+}
+.bottom-car .rotate-car .introduce a{
+    display: inline-block;
+}
+.bottom-car .rotate-car .price{
+    text-align: center;
+}
+.bottom-car .rotate-car .price2{
+    color: #c80f1e;
+}
+.bottom-car  .gou-box{
+    width: 100px;
+    height: 30px;
+    margin: 5px 50px 0; 
+    position: relative;
+}
+.bottom-car .rotate-car .gouWu{
+    
+    width: 100px;
+    height: 30px;
+    /* margin: 5px 50px 0; */
+    background: #c80f1e;
+    color: #fff;
+    border-color: #c80f1e;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}   
+.bottom-car .rotate-car .gouWu::after{
+    content: '';
+    width:0px;
+    height:30px;
+    position: absolute;
+    left:50px;
+    top: 0;
+    border-radius:5px;
+    background: rgba(255,255,255,.4);
+    transition: all .3s;
+}
+.bottom-car .gou-box:hover .gouWu::after{
+    width: 100px;
+    left: 0;
+}
+.bottom-car .left,.bottom-car .right{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    /* background-color: aquamarine; */
+    display: none;
+}
+.bottom-car .left i,.bottom-car .right i{
+  font-size: 50px;
+  color:#ccc;
+}
+.bottom-car .left{
+    left: 30px;
+}
+.bottom-car .right{
+    right: 30px;
+}
+

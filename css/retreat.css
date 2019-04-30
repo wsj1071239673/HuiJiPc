@@ -1,0 +1,74 @@
+.header{
+    height: 300px;
+    background: #5DE195;
+}
+.promise-top{
+    background:#fff url(../images/retreat/2018070314077052.jpg) no-repeat center center;
+    height: 483px;
+}
+.promise-bottom{
+    background:#44474C url(../images/retreat/2018070313324371.jpg) no-repeat center center;
+    height:301px;
+}
+.compensate{
+    background:#fff url(../images/retreat/2018070519419365.jpg) no-repeat center center;
+    height:442px;
+}
+.accredit-tit{
+    background:#f4f4f4 url(../images/retreat/2018070313331205.jpg) no-repeat center center;
+    height:108px;
+}
+.accredit{
+    background:#f4f4f4 url(../images/retreat/2_03.png) no-repeat center center;
+    height:1150px;
+}
+.shop-tit{
+    background:#FFCB31 url(../images/retreat/2018072310395880.png) no-repeat center center;
+    height:155px;
+}
+.shop{
+    background:#FFCB31 url(../images/retreat/2018070314590213.jpg) no-repeat center center;
+    height:848px;
+    cursor: pointer;
+}
+.delivery{
+    background:#5DE195 url(../images/retreat/2018070313357861.jpg) no-repeat center center;
+    height:607px;
+    cursor: pointer;
+}
+.delivery-flow{
+    background:#5DE195 url(../images/retreat/2018070317589199.jpg) no-repeat center center;
+    height:550px;
+}
+.service{
+    background:#FF834D url(../images/retreat/2018070519410817.jpg) no-repeat center center;
+    height:596px;
+}
+.after-sale{
+    background:#f4f4f4 url(../images/retreat/2018070519417894.jpg) no-repeat center center;
+    height:682px;
+}
+.advantage{
+    background:#44474C url(../images/retreat/2018070313375043.jpg) no-repeat center center;
+    height:725px;
+}
+.glory-tit{
+    background:#f4f4f4 url(../images/retreat/2018070519416773.jpg) no-repeat center center;
+    height:180px;
+}
+.glory{
+    background:#f4f4f4 url(../images/retreat/1_06.png) no-repeat center center;
+    height:1100px;
+}
+.report{
+    background:#7DD6F8 url(../images/retreat/2018110817048739.jpg) no-repeat center center;
+    height:767px;
+}
+.public-num{
+    background:#fff url(../images/retreat/2018070315579644.jpg) no-repeat center center;
+    height:455px;
+}
+.footer{
+    height: 200px;
+    background: salmon;
+}

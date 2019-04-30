@@ -1,0 +1,223 @@
+body{
+    background-color: #ffffff;
+}
+.banner{
+    width: 100%;
+    min-width: 1200px;
+    height: 260px;
+    background: url(../images/pop/pop01.jpg) no-repeat 0 0; 
+    background-size:cover;/*???*/
+}
+/*banner完成*/
+.main{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.news{
+     padding: 42px 0 35px 0;
+     text-align: center;
+}
+.news .time{
+    font: 14px/22px "微软雅黑";
+    color: #999795;
+}
+.news .connect{
+    font: bold 34px/35px "微软雅黑";
+    color: #999;
+    margin: 0 auto;
+}
+/*通讯完成*/
+.clearfix:after{
+    content:".";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;;
+}
+.phone,.computer-po,.video-po,.device-po{
+    margin-bottom: 20px;
+}
+.phone .hot-cn,.computer-po .hot-cn,.video-po .hot-cn,.device-po .hot-cn{
+    font:bold 20px/24px "微软雅黑";
+    color: #c80f1e;
+}
+.phone .hot-en,.computer-po .hot-en,.video-po .hot-en,.device-po .hot-en{
+    margin-left: 10px;
+    color: #aeaeae;
+    font:bold 18px/24px "微软雅黑";
+}
+.phone .hot,.computer-po .hot,.video-po .hot,.device-po .hot{
+    margin-bottom: 15px;
+}
+.phone .phone-all,.computer-po .computer-all,.video-po .video-all,.device-po .device-all{
+    height: 578px;
+}
+.phone li,.computer-po li,.video-po li,.device-po li{
+    font-size: 12px;
+    margin-right: 18px;
+    float: left;
+}
+.phone .show,.computer-po .show,.video-po .show,.device-po .show{
+    width: 280px;
+    height: 536px;
+    border: 1px solid #dedede; 
+    overflow: hidden;
+}
+.phone .prime,.computer-po .prime,.video-po .prime,.device-po .prime{
+    position: relative;
+    width: 245px;
+    height: 360px; 
+    padding: 15px 20px 0;
+    overflow: hidden;
+}
+.phone .piano-mo,.computer-po .piano-mo,.video-po .piano-mo,.device-po .piano-mo{
+    overflow: hidden;
+}
+.phone .pic,.computer-po .pic,.video-po .pic,.device-po .pic{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+.phone .pic img,.computer-po .pic img,.video-po .pic img,.device-po .pic img{
+    width: 160px;
+    height: 160px;
+}
+.phone .one,.computer-po .one,.video-po .one,.device-po .one{
+    text-align: center;
+    margin-bottom: 17px;
+}
+.phone .one .ist,.computer-po .one .ist,.video-po .one .ist,.device-po .one .ist{
+    width: 180px;
+    font: bold 14px/30px "微软雅黑";
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.phone .price,.computer-po .price,.video-po .price,.device-po .price{
+    display: block;
+    font: bold 14px/24px "微软雅黑";
+    color: #ff5050;
+}
+.phone .triangle,.computer-po .triangle,.video-po .triangle,.device-po .triangle{
+    border: 5px solid transparent;
+    border-top: 5px solid black;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+.phone .instro,.computer-po .instro,.video-po .instro,.device-po .instro{
+    width: 175px;
+    margin: 4px auto 10px;
+    font: 12px/15px "微软雅黑";
+    margin-bottom: 15px;
+    height: 30px;
+    /* float: left; */
+}
+.phone .reception,.computer-po .reception,.video-po .reception,.device-po .reception{
+    /* margin-top: 30px;   */
+}
+.phone .pattern,.computer-po .pattern,.video-po .pattern,.device-po .pattern{
+    width: 160px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    margin-right: 20px;
+    float: left;
+}
+.phone .result,.computer-po .result,.video-po .result,.device-po .result{
+    float: right;
+     font: 12px/12px "微软雅黑";
+}
+.phone .good,.computer-po .good,.video-po .good,.device-po .good{
+    color: #999;
+}
+.phone .percent,.computer-po .percent,.video-po .percent,.device-po .percent{
+    color: #3caaff;
+}
+.phone .detail .left,.computer-po .detail .left,.video-po .detail .left,.device-po .detail .left{
+    float: left;
+}
+.phone .detail .right,.computer-po .detail .right,.video-po .detail .right,.device-po .detail .right{
+    float: right;
+}
+.phone .detail a,.computer-po .detail a,.video-po .detail a,.device-po .detail a{
+    font-weight: bold;
+    color: #c80f1e;
+}
+.phone .detail,.computer-po .detail,.video-po .detail,.device-po .detail{
+    margin:10px 0 7px;
+}
+.phone .title div,.computer-po .title div,.video-po .title div,.device-po .title div{
+    width: 16px;
+    height: 16px;
+    background-color: #c80f1e;
+    float: left;
+    margin-right: 17px;
+    text-align:center;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.phone .title p,.computer-po .title p,.video-po .title p,.device-po .title p{
+    float: left;
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.phone .title span,.computer-po .title span,.video-po .title span,.device-po .title span{
+    color: #ff5050;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+.phone .title,.computer-po .title,.video-po .title,.device-po .title{
+    width: 240px;
+    height: 38px;
+    line-height: 36px;
+    border-bottom: 1px dashed #cbcbcb;
+    padding:0 20px;
+}
+.phone .specious,.computer-po .specious,.video-po .specious,.device-po .specious{
+    display: none;
+}
+.phone .prime-spe,.computer-po .prime-spe,.video-po .prime-spe,.device-po .prime-spe{
+    width: 245px;
+    height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.phone .prime-spe2,.computer-po .prime-spe2,.video-po .prime-spe2,.device-po .prime-spe2{
+    border-bottom: 1px dashed #cbcbcb;
+}
+.phone .red-tri,.computer-po .red-tri,.video-po .red-tri,.device-po .red-tri{
+    position: absolute;
+    top:-25px;
+    left: -25px;
+    border: 25px solid transparent;
+    border-top: 25px solid #c80f1e;
+    height: 0;
+    width: 0;
+    transform:rotate(-225deg);
+    overflow:visible;
+}
+.phone .ding,.computer-po .ding,.video-po .ding,.device-po .ding{
+    position: absolute;
+    top:2px;
+    left:5px;
+    color: #ffffff;
+}
+
+/*phone完成*/
+.phone-new{
+    width: 918px;
+    margin:0 auto;
+}
+.video-specious,.device-specious{
+    width: 900px;
+    margin:0 auto;
+}

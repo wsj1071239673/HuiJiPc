@@ -1,0 +1,276 @@
+html,body{
+    background: #f6f6f6;
+    perspective: 1000px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.content{
+    transition:all 3s;
+     transform: translateZ(0px);
+}
+/* head */
+.reg-head{
+    height:80px;
+}
+.reg-head a{
+    display: flex;
+}
+.reg-head img{
+    width: 100px;
+    height: 50px;
+    padding:15px;
+}
+.reg-head span{
+    margin-left: 60px;
+    font-size:25px;
+    color:#c80f1e;
+    line-height:80px;
+    position: relative;
+}
+.reg-head span::before{
+    position: absolute;
+    left: -40px;
+    top:20px;
+    content: '';
+    width: 2px;
+    height: 40px;
+    background: #b9b3b3;
+}
+/* head  end */
+
+.reg-box{
+    background: #fff url(../images/reg/reg_bg.png) no-repeat right center;
+    border: solid 8px #f0f0f0;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    height: 418px;
+    font-size: 12px;
+}
+.reg-box .reg-tab{
+    cursor: pointer;
+    font-size: 16px;
+    color: #999;
+    background: #eee;
+    display: inline-block;
+    font-family: 'Microsoft YaHei';
+}
+.reg-tab ul{
+    display: flex;
+    list-style: none;
+}
+.reg-tab ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-right: solid 1px #ddd;
+}
+.reg-tab ul li.act{
+    border-top: solid 2px #c80f1e;
+    font-size: 16px;
+    color: #666;
+    background: #fff;
+}
+.reg-box .regtip {
+    float:right;
+    margin: 10px 10px 0 0;
+}
+.reg-box  .regtip a{
+    background: #9c3;
+    color: #fff;
+    margin-left: 5px;
+    padding: 2px;
+}
+
+/* 账号注册 */
+ .reg dl{
+    line-height: 30px;
+    margin-top: 15px;
+    min-height: 30px;
+}
+.reg dt{
+    color: #999;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    width: 100px;
+}
+.reg dt i{
+    color: #f33;
+    font-style:normal;
+}
+.reg dd{
+    margin-left: 110px;
+}
+.reg  input[type=text],
+.reg  input[type=password]{
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 2px #f3f3f3;
+    height: 28px;
+    text-indent: 5px;
+    width: 240px;
+}
+.reg  input.phone-code{
+    width: 120px;
+}
+.reg  input[type=checkbox]{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.reg em{
+    color: #999;
+    margin-left: 10px;
+    font-style: normal;
+}
+.reg button {
+    background: #c80f1e;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    width: 160px;
+}
+.reg dl a.btn{
+    margin-left: 10px;
+    border: 1px solid #dddddd;
+    padding: 0;
+    width: 106px;
+    height: 30px;
+    background: #f4f4f4;
+    margin-top: 0;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* 提示 */
+.reg  .tip{
+    position: absolute;
+    left:253px;
+    line-height: 22px;
+    border-radius:5px;
+    background: orange;
+    color:#fff;
+    padding:5px 10px 5px 10px;
+    display: none;
+}
+.reg  .tip:after{
+    position: absolute;
+    left:-7px;
+    top:10px;
+    content: '';
+    border:7px solid transparent;
+    border-top:7px solid orange;
+    transform: rotate(-45deg);
+}
+.reg .phone-btn{
+    background: #fff;
+    border:1px solid #dedede;
+    padding: 6px 7px;
+}
+.reg label{
+    color:cyan;
+}
+.reg label a{
+    color: cyan;
+}
+
+/*滑动验证*/
+.slide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9; 
+}
+.slide .mask{
+    background:rgba(0,0,0,0.5);
+    height: 100%;
+}
+.slide .slide-box{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -160px;
+    background: #fff;
+}
+.slide .img-box{
+    width: 300px;
+    height: 200px;
+    margin:5px 6px;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/reg/1.png) no-repeat 0 0;
+}
+.slide .img-box img{
+    position: absolute;
+    top: 89px;
+    left:10px;
+    width: 40px;
+    height: 40px;
+    /* transition:opacity 2s;
+    opacity: 0; */
+}
+.slide .btn-box{
+    position: relative;
+    height: 60px;
+    margin: 10px;
+    width: 300px;
+}
+.slide .slideway{
+    height: 40px;
+    background: #f0f0f0;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 10px;
+    border-radius: 40px;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #9c9c9c;
+    line-height: 40px;
+    text-align: center;
+}
+.slide .slideway p{
+    width: 295px;
+    text-indent: 35px;
+}
+.slide .slide-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #555;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    cursor: move;
+}
+.slide .slide-btn .ku{
+    position: absolute;
+    display: flex;
+    top: 23px;
+    left: 19px;
+}
+.slide .slide-btn .ku div{
+    width: 3px;
+    height: 15px;
+    border-radius: 3px;
+    margin: 0 2px;
+    background: #5dc800;
+}
+
